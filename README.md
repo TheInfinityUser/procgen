@@ -10,5 +10,5 @@ All exits for a particular room must follow atleast one of these symmetries, exc
 
 Steps for door generation
 1. First choose the number of doors we want (say, 6)
-2. Choose any number of symmetries that can be applied randomly, but ensuring there exists 's' symmetries ('s' is a number chosen arbitrarily).
+2. Choose any symmetries that can be applied randomly, ensuring that each door has atleast one symmetry.
 3. Generate doors applying these symmetries.
