@@ -22,8 +22,8 @@ function love.conf(t)
 
 	t.window.title          = "ProcGen"
 	t.window.icon           = nil
-	t.window.width          = 1280
-	t.window.height         = 720
+	t.window.width          = 800
+	t.window.height         = 800
 	t.window.borderless     = false
 	t.window.resizable      = false
 	t.window.minwidth       = 1
