@@ -9,6 +9,6 @@ Types of symmetries
 All exits for a particular room must follow atleast one of these symmetries, except if the room has only one exit.
 
 Steps for door generation
-1. First choose the number of exits we want (say, 6)
+1. First choose the number of exits randomly (based on the size of the room of course)
 2. Choose any symmetries that can be applied randomly, ensuring that each exit has atleast one symmetry.
 3. Generate exits applying these symmetries.
