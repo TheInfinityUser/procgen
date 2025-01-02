@@ -1,6 +1,5 @@
 # Exit Generation Rules
 Types of symmetries
-0. No Symmetry: One exit lies on any wall.
 1. Parallel Symmetry: Two exits lie along the same line on opposite walls. The line is parallel to either adjacent wall.
 2. Centre Intersector Symmetry: Two exits lie along the same line on opposite walls. The line intersects the centre of the room.
 3. Equidistance Symmetry: Three or more exits on the same wall are equally spaced
