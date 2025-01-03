@@ -1,11 +1,11 @@
 local world
 
 local roomCount = 40
-local roomRemoveCount = 10
+local roomRemoveCount = math.floor(roomCount / 4)
 local roomSeparatorPadding = 1
 local roomWRange = { 3, 20 }
 local roomHRange = { 3, 20 }
-local roomSpawnRadius = 20
+local roomSpawnRadius = math.floor(roomCount / 2)
 local exitDensity = 1 / 5
 
 local log = ""
