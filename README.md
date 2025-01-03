@@ -1,1 +1,2 @@
-
+## Exit Generation
+Exits are generated completely randomly, ensuring atleast 1 unit of space between adjecent exits on the same wall. If there is any odd triangular formation of exits with the opposite room, one of them is pushed aside randomly. If there are multiple exits with insufficient spacing between opposite walls, increase the separator size of the room and continue separation. Separator size increases based on the range (no. of similar exits) / 2 to (no. of similar exits). For each separator size, check whether construction of paths is possible, if so construct the paths, otherwise increase separator size and try again.
