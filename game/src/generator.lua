@@ -1,8 +1,8 @@
 local world
 
-local roomCount = 20
-local roomRemoveCount = 5
-local roomSeparatorPadding = 3
+local roomCount = 40
+local roomRemoveCount = 10
+local roomSeparatorPadding = 1
 local roomWRange = { 3, 20 }
 local roomHRange = { 3, 20 }
 local roomSpawnRadius = 20
@@ -101,12 +101,6 @@ function GenerateExits()
 	local function removeTriplet(elements, centreElement)
 		for i, v in ipairs(elements) do
 			if v == centreElement then
-				table.remove(elements, i)
-			end
-			if v == centreElement - 1 then
-				table.remove(elements, i)
-			end
-			if v == centreElement + 1 then
 				table.remove(elements, i)
 			end
 		end
